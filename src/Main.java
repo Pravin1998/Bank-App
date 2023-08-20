@@ -1,6 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        HDFCAccount pravinacc = new HDFCAccount("Pravin","Pravin22",20000);
+        //HDFCAccount pravinacc = new HDFCAccount("Pravin","Pravin22",20000);
+        SBIAccount pravinacc = new SBIAccount("Pravin","Pravin22",20000);
         System.out.println(pravinacc);
 
         //fetchbalance
